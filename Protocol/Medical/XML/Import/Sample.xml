@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<caseinfo Discipline="Medical" DBVer="23" Agency="Sample" License="0123456789">
+	<case LogicVersion="12.2.227" Lang="NAE" ProtocolType="STD" AppVersion="5.1.1.12">
+		<internal_id>11</internal_id>
+		<incident>2663196</incident>
+		<operator>09001</operator>
+		<location>2210 CORTEZ DR</location>
+		<location2/>
+		<location3/>
+		<city/>
+		<stateprov/>
+		<zippostal/>
+		<phone>(719) 392-7986</phone>
+		<problem/>
+		<callername/>
+		<party>0</party>
+		<patients>1</patients>
+		<age>80</age>
+		<ageunit>2</ageunit>
+		<gender>1</gender>
+		<conscious>0</conscious>
+		<breathing>0</breathing>
+		<cc>28</cc>
+		<ron/>
+		<ron_total/>
+		<start_time zulu="2015-09-23T23:34:42.869Z" localbias="420">9/23/2015 4:34:42 PM</start_time>
+		<end_time zulu="2015-09-23T23:38:04.210Z" localbias="420">9/23/2015 4:38:04 PM</end_time>
+		<total_time zulu="1899-12-30T07:03:21.341Z" localbias="420">12/30/1899 12:03:21 AM</total_time>
+		<dispatch_time zulu="2015-09-23T23:37:27.090Z" localbias="420">9/23/2015 4:37:27 PM</dispatch_time>
+		<caseentry_time zulu="1899-12-30T07:00:14.017Z" localbias="420">12/30/1899 12:00:14 AM</caseentry_time>
+		<kq_init_time zulu="2015-09-23T23:34:56.914Z" localbias="420">9/23/2015 4:34:56 PM</kq_init_time>
+		<kq_end_time zulu="2015-09-23T23:37:27.371Z" localbias="420">9/23/2015 4:37:27 PM</kq_end_time>
+		<kq_time zulu="1899-12-30T07:02:30.457Z" localbias="420">12/30/1899 12:02:30 AM</kq_time>
+		<pdi_init_time zulu="2015-09-23T23:37:27.363Z" localbias="420">9/23/2015 4:37:27 PM</pdi_init_time>
+		<pdi_time zulu="1899-12-30T07:00:04.335Z" localbias="420">12/30/1899 12:00:04 AM</pdi_time>
+		<pai_init_time zulu="2015-09-23T23:37:31.698Z" localbias="420">9/23/2015 4:37:31 PM</pai_init_time>
+		<pai_time zulu="1899-12-30T07:00:32.512Z" localbias="420">12/30/1899 12:00:32 AM</pai_time>
+		<summary_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</summary_init_time>
+		<response>.</response>
+		<pdi/>
+		<override>0</override>
+		<status>3</status>
+		<shunted>0</shunted>
+		<shuntedto/>
+		<reconfigured>0</reconfigured>
+		<reconfigure_oc>0</reconfigure_oc>
+		<re_eval>0</re_eval>
+		<language_no/>
+		<pending>0</pending>
+		<progform>4</progform>
+		<progfield>10</progfield>
+		<testcase>0</testcase>
+		<shifted>0</shifted>
+		<shifted_cc>0</shifted_cc>
+		<shifted_lvl/>
+		<shifted_sublvl>0</shifted_sublvl>
+		<shifted_suffix/>
+		<caller_language_no/>
+		<call_start_time>2015-09-23T16:33:32</call_start_time>
+		<call_phone_type>0</call_phone_type>
+		<deleted/>
+		<lat/>
+		<lon/>
+		<rep_id>{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}</rep_id>
+		<cond_code/>
+		<init_ventilations zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</init_ventilations>
+		<hands_on_chest zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</hands_on_chest>
+		<lon_1/>
+		<lat_1/>
+		<arch/>
+		<actions>
+			<action idx="1" action_code="65513" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:42.928Z" localbias="420" date_time="9/23/2015 4:34:42 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Case Entry Protocol entered</data1>
+			</action>
+			<action idx="2" action_code="65535" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:43.218Z" localbias="420" date_time="9/23/2015 4:34:43 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Location: %s</data1>
+			</action>
+			<action idx="3" action_code="65534" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:43.299Z" localbias="420" date_time="9/23/2015 4:34:43 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Callback: %s</data1>
+			</action>
+			<action idx="4" action_code="65506" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:46.259Z" localbias="420" date_time="9/23/2015 4:34:46 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Caller party:</data1>
+			</action>
+			<action idx="5" action_code="65532" var1="1" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:46.858Z" localbias="420" date_time="9/23/2015 4:34:46 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>No. of patients: %s</data1>
+			</action>
+			<action idx="6" action_code="65531" var1="80" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:48.093Z" localbias="420" date_time="9/23/2015 4:34:48 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Age: %s</data1>
+			</action>
+			<action idx="7" action_code="65499" var1="2" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:48.107Z" localbias="420" date_time="9/23/2015 4:34:48 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Age unit entry</data1>
+			</action>
+			<action idx="8" action_code="65530" var1="1" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:49.520Z" localbias="420" date_time="9/23/2015 4:34:49 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Gender: %s</data1>
+			</action>
+			<action idx="9" action_code="65529" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:51.615Z" localbias="420" date_time="9/23/2015 4:34:51 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Conscious: %s</data1>
+			</action>
+			<action idx="10" action_code="65528" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:53.564Z" localbias="420" date_time="9/23/2015 4:34:53 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Breathing: %s</data1>
+			</action>
+			<action idx="11" action_code="65527" var1="28" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:56.634Z" localbias="420" date_time="9/23/2015 4:34:56 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Chief Complaint: %d: %s</data1>
+			</action>
+			<action idx="12" action_code="65497" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:34:56.898Z" localbias="420" date_time="9/23/2015 4:34:56 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Key Questions entered</data1>
+			</action>
+			<action idx="13" action_code="1743" var1="28" var2="1" var3="6188" var4="7085" var5="10766" var6="963" var7="10767" var8="1" var9="22098" var10="1" zulu="2015-09-23T23:35:01.061Z" localbias="420" date_time="9/23/2015 4:35:01 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Is she completely alert (responding appropriately)?</data1>
+				<data2>She is completely alert (responding appropriately).</data2>
+				<data3>Yes</data3>
+			</action>
+			<action idx="14" action_code="1751" var1="28" var2="1" var3="6189" var4="7110" var5="5144" var6="963" var7="5973" var8="2" var9="22032" var10="1" zulu="2015-09-23T23:35:05.478Z" localbias="420" date_time="9/23/2015 4:35:05 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Is she breathing normally?</data1>
+				<data2>She is breathing normally.</data2>
+				<data3>Yes</data3>
+			</action>
+			<action idx="15" action_code="65526" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:35:05.632Z" localbias="420" date_time="9/23/2015 4:35:05 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Additional Information displayed</data1>
+			</action>
+			<action idx="16" action_code="1793" var1="28" var2="5" var3="6057" var4="7309" var5="16011" var6="5833" var7="12409" var8="3" var9="22664" var10="1" zulu="2015-09-23T23:35:07.406Z" localbias="420" date_time="9/23/2015 4:35:07 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Tell me why you think it&apos;s a STROKE. (Ø  Select the specific symptoms only if a sudden onset was reported.)</data1>
+				<data2>She is having sudden vision problems.</data2>
+				<data3>Vision problems</data3>
+			</action>
+			<action idx="17" action_code="65472" var1="1" var2="7852" var3="7853" var4="0" var5="32" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:35:07.931Z" localbias="420" date_time="9/23/2015 4:35:07 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>General Diagnostic</data1>
+			</action>
+			<action idx="18" action_code="65467" var1="1" var2="8104" var3="8059" var4="0" var5="32" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:35:24.991Z" localbias="420" date_time="9/23/2015 4:35:24 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Stroke Diagnostic:</data1>
+			</action>
+			<action idx="19" action_code="65467" var1="2" var2="8104" var3="8092" var4="0" var5="32" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:36:17.598Z" localbias="420" date_time="9/23/2015 4:36:17 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Stroke Diagnostic:</data1>
+			</action>
+			<action idx="20" action_code="65467" var1="6" var2="8104" var3="8095" var4="0" var5="32" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:36:55.104Z" localbias="420" date_time="9/23/2015 4:36:55 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Stroke Diagnostic:</data1>
+			</action>
+			<action idx="21" action_code="65467" var1="10" var2="8104" var3="8099" var4="0" var5="32" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:36:56.865Z" localbias="420" date_time="9/23/2015 4:36:56 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Stroke Diagnostic:</data1>
+			</action>
+			<action idx="22" action_code="65467" var1="15" var2="8104" var3="7844" var4="0" var5="32" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:36:56.878Z" localbias="420" date_time="9/23/2015 4:36:56 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Stroke Diagnostic:</data1>
+			</action>
+			<action idx="23" action_code="65490" var1="1" var2="0" var3="0" var4="1" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:36:56.904Z" localbias="420" date_time="9/23/2015 4:36:56 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>No test evidence of stroke (1,1,1)</data1>
+			</action>
+			<action idx="24" action_code="65472" var1="5" var2="7852" var3="7786" var4="0" var5="32" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:36:57.889Z" localbias="420" date_time="9/23/2015 4:36:57 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>General Diagnostic</data1>
+			</action>
+			<action idx="25" action_code="1953" var1="28" var2="4" var3="5971" var4="8177" var5="10082" var6="8087" var7="10289" var8="4" var9="22650" var10="1" zulu="2015-09-23T23:37:01.253Z" localbias="420" date_time="9/23/2015 4:37:01 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Ø  Accept the Stroke Diagnostic recommendation.</data1>
+				<data2>The stroke diagnostic results indicate no positive evidence of stroke.</data2>
+				<data3>No test evidence of stroke</data3>
+			</action>
+			<action idx="26" action_code="65526" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:01.400Z" localbias="420" date_time="9/23/2015 4:37:01 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Additional Information displayed</data1>
+			</action>
+			<action idx="27" action_code="1887" var1="28" var2="1" var3="6155" var4="7763" var5="10050" var6="5835" var7="27307" var8="5" var9="27308" var10="1" zulu="2015-09-23T23:37:22.255Z" localbias="420" date_time="9/23/2015 4:37:22 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Exactly what time did these symptoms (problem) start?</data1>
+				<data2>These symptoms started within the approved treatment window at:</data2>
+				<data3>Less than &quot;X&quot; hrs ago (enter exact time):</data3>
+			</action>
+			<action idx="28" action_code="65490" var1="2" var2="28" var3="1887" var4="7763" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:22.279Z" localbias="420" date_time="9/23/2015 4:37:22 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>3.5 hrs</data1>
+			</action>
+			<action idx="29" action_code="1796" var1="28" var2="3" var3="6058" var4="7314" var5="5214" var6="958" var7="6224" var8="6" var9="22417" var10="1" zulu="2015-09-23T23:37:25.806Z" localbias="420" date_time="9/23/2015 4:37:25 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Has she ever had a STROKE before?</data1>
+				<data2>She has not had a STROKE before.</data2>
+				<data3>No</data3>
+			</action>
+			<action idx="30" action_code="65496" var1="3" var2="1" var3="28" var4="C" var5="7" var6="X" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:25.816Z" localbias="420" date_time="9/23/2015 4:37:25 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Dispatch recommended: %s-%d</data1>
+			</action>
+			<action idx="31" action_code="65522" var1="2" var2="2" var3="28" var4="C" var5="7" var6="X" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:27.065Z" localbias="420" date_time="9/23/2015 4:37:27 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Dispatched: %s-%d</data1>
+			</action>
+			<action idx="32" action_code="65493" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:27.116Z" localbias="420" date_time="9/23/2015 4:37:27 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Response</data1>
+			</action>
+			<action idx="33" action_code="65525" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:27.363Z" localbias="420" date_time="9/23/2015 4:37:27 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Post-Dispatch Instructions displayed</data1>
+			</action>
+			<action idx="34" action_code="65524" var1="X" var2="21" var3="1028" var4="7244" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:31.630Z" localbias="420" date_time="9/23/2015 4:37:31 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="35" action_code="65524" var1="X" var2="22" var3="1" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:41.487Z" localbias="420" date_time="9/23/2015 4:37:41 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="36" action_code="65524" var1="X" var2="22" var3="1028" var4="7249" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:37:41.496Z" localbias="420" date_time="9/23/2015 4:37:41 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="37" action_code="65509" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T23:38:04.210Z" localbias="420" date_time="9/23/2015 4:38:04 PM" operator="09001" rep_id="{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}">
+				<data1>Complete case</data1>
+			</action>
+		</actions>
+		<dispatch_history>
+			<dispatch>
+				<idx>1</idx>
+				<cc>28</cc>
+				<lvl>C</lvl>
+				<sublvl>7</sublvl>
+				<suffix>X</suffix>
+				<disptype>3</disptype>
+				<local_suffix/>
+				<rep_id>{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}</rep_id>
+			</dispatch>
+			<dispatch>
+				<idx>2</idx>
+				<cc>28</cc>
+				<lvl>C</lvl>
+				<sublvl>7</sublvl>
+				<suffix>X</suffix>
+				<disptype>2</disptype>
+				<local_suffix/>
+				<rep_id>{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}</rep_id>
+			</dispatch>
+			<dispatch>
+				<idx>3</idx>
+				<cc>28</cc>
+				<lvl>C</lvl>
+				<sublvl>7</sublvl>
+				<suffix>X</suffix>
+				<disptype>1</disptype>
+				<local_suffix/>
+				<rep_id>{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}</rep_id>
+			</dispatch>
+		</dispatch_history>
+		<info_de/>
+		<info_cbrn/>
+		<comments>
+			<comment>
+				<idx>1</idx>
+				<var1>0</var1>
+				<var2>0</var2>
+				<var3>1</var3>
+				<var4>0</var4>
+				<var5>0</var5>
+				<var6>0</var6>
+				<var7>0</var7>
+				<var8>0</var8>
+				<var9>0</var9>
+				<var10>0</var10>
+				<comment>No test evidence of stroke (1,1,1)</comment>
+				<rep_id>{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}</rep_id>
+			</comment>
+			<comment>
+				<idx>2</idx>
+				<var1>28</var1>
+				<var2>1887</var2>
+				<var3>7763</var3>
+				<var4>0</var4>
+				<var5>0</var5>
+				<var6>0</var6>
+				<var7>0</var7>
+				<var8>0</var8>
+				<var9>0</var9>
+				<var10>0</var10>
+				<comment>3.5 hrs</comment>
+				<rep_id>{FEB684F3-0B51-4BF6-8ED9-44A9952AD678}</rep_id>
+			</comment>
+		</comments>
+		<abort/>
+		<transfer/>
+	</case>
+	<case LogicVersion="12.2.227" Lang="NAE" ProtocolType="STD" AppVersion="5.1.1.12">
+		<internal_id>2</internal_id>
+		<incident>2662630</incident>
+		<operator>01001</operator>
+		<location>1234 SAMPLE RD</location>
+		<location2/>
+		<location3/>
+		<city/>
+		<stateprov/>
+		<zippostal/>
+		<phone>012-345-6789</phone>
+		<problem/>
+		<callername/>
+		<party>-1</party>
+		<patients>-1</patients>
+		<age>-1</age>
+		<ageunit>-1</ageunit>
+		<gender>-1</gender>
+		<conscious>-1</conscious>
+		<breathing>-1</breathing>
+		<cc>-1</cc>
+		<ron/>
+		<ron_total/>
+		<start_time zulu="2015-09-23T13:32:18.627Z" localbias="420">9/23/2015 6:32:18 AM</start_time>
+		<end_time zulu="2015-09-23T13:32:40.469Z" localbias="420">9/23/2015 6:32:40 AM</end_time>
+		<total_time zulu="1899-12-30T07:00:21.842Z" localbias="420">12/30/1899 12:00:21 AM</total_time>
+		<dispatch_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</dispatch_time>
+		<caseentry_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</caseentry_time>
+		<kq_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</kq_init_time>
+		<kq_end_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</kq_end_time>
+		<kq_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</kq_time>
+		<pdi_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pdi_init_time>
+		<pdi_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pdi_time>
+		<pai_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pai_init_time>
+		<pai_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pai_time>
+		<summary_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</summary_init_time>
+		<response/>
+		<pdi/>
+		<override>0</override>
+		<status>1</status>
+		<shunted>0</shunted>
+		<shuntedto/>
+		<reconfigured>0</reconfigured>
+		<reconfigure_oc>0</reconfigure_oc>
+		<re_eval>0</re_eval>
+		<language_no/>
+		<pending>0</pending>
+		<progform>1</progform>
+		<progfield>2</progfield>
+		<testcase>0</testcase>
+		<shifted>0</shifted>
+		<shifted_cc>0</shifted_cc>
+		<shifted_lvl/>
+		<shifted_sublvl>0</shifted_sublvl>
+		<shifted_suffix/>
+		<caller_language_no/>
+		<call_start_time>2015-09-23T06:31:59</call_start_time>
+		<call_phone_type>0</call_phone_type>
+		<deleted/>
+		<lat/>
+		<lon/>
+		<rep_id>{35FD0038-E4B9-471A-8158-9D1197B4AF91}</rep_id>
+		<cond_code/>
+		<init_ventilations zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</init_ventilations>
+		<hands_on_chest zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</hands_on_chest>
+		<lon_1/>
+		<lat_1/>
+		<arch/>
+		<actions>
+			<action idx="1" action_code="65513" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:32:18.714Z" localbias="420" date_time="9/23/2015 6:32:18 AM" operator="01001" rep_id="{35FD0038-E4B9-471A-8158-9D1197B4AF91}">
+				<data1>Case Entry Protocol entered</data1>
+			</action>
+			<action idx="2" action_code="65535" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:32:18.967Z" localbias="420" date_time="9/23/2015 6:32:18 AM" operator="01001" rep_id="{35FD0038-E4B9-471A-8158-9D1197B4AF91}">
+				<data1>Location: %s</data1>
+			</action>
+			<action idx="3" action_code="65534" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:32:19.034Z" localbias="420" date_time="9/23/2015 6:32:19 AM" operator="01001" rep_id="{35FD0038-E4B9-471A-8158-9D1197B4AF91}">
+				<data1>Callback: %s</data1>
+			</action>
+			<action idx="4" action_code="65518" var1="1" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:32:40.469Z" localbias="420" date_time="9/23/2015 6:32:40 AM" operator="01001" rep_id="{35FD0038-E4B9-471A-8158-9D1197B4AF91}">
+				<data1>Abort case: n/a</data1>
+			</action>
+		</actions>
+		<dispatch_history/>
+		<info_de/>
+		<info_cbrn/>
+		<comments/>
+		<abort>
+			<aborted>
+				<idx>1</idx>
+				<reason>9. Test case</reason>
+				<rep_id>{35FD0038-E4B9-471A-8158-9D1197B4AF91}</rep_id>
+			</aborted>
+		</abort>
+		<transfer/>
+	</case>
+	<case LogicVersion="12.2.227" Lang="NAE" ProtocolType="STD" AppVersion="5.1.1.12">
+		<internal_id>3</internal_id>
+		<incident>2662631</incident>
+		<operator>10047</operator>
+		<location>1234 SAMPLE RD</location>
+		<location2/>
+		<location3/>
+		<city/>
+		<stateprov/>
+		<zippostal/>
+		<phone>012-345-6789</phone>
+		<problem/>
+		<callername/>
+		<party>-1</party>
+		<patients>-1</patients>
+		<age>-1</age>
+		<ageunit>-1</ageunit>
+		<gender>-1</gender>
+		<conscious>-1</conscious>
+		<breathing>-1</breathing>
+		<cc>-1</cc>
+		<ron/>
+		<ron_total/>
+		<start_time zulu="2015-09-23T13:33:09.137Z" localbias="420">9/23/2015 6:33:09 AM</start_time>
+		<end_time zulu="2015-09-23T13:33:38.865Z" localbias="420">9/23/2015 6:33:38 AM</end_time>
+		<total_time zulu="1899-12-30T07:00:29.728Z" localbias="420">12/30/1899 12:00:29 AM</total_time>
+		<dispatch_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</dispatch_time>
+		<caseentry_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</caseentry_time>
+		<kq_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</kq_init_time>
+		<kq_end_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</kq_end_time>
+		<kq_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</kq_time>
+		<pdi_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pdi_init_time>
+		<pdi_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pdi_time>
+		<pai_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pai_init_time>
+		<pai_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</pai_time>
+		<summary_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</summary_init_time>
+		<response/>
+		<pdi/>
+		<override>0</override>
+		<status>1</status>
+		<shunted>0</shunted>
+		<shuntedto/>
+		<reconfigured>0</reconfigured>
+		<reconfigure_oc>0</reconfigure_oc>
+		<re_eval>0</re_eval>
+		<language_no/>
+		<pending>0</pending>
+		<progform>1</progform>
+		<progfield>2</progfield>
+		<testcase>0</testcase>
+		<shifted>0</shifted>
+		<shifted_cc>0</shifted_cc>
+		<shifted_lvl/>
+		<shifted_sublvl>0</shifted_sublvl>
+		<shifted_suffix/>
+		<caller_language_no/>
+		<call_start_time>2015-09-23T06:32:53</call_start_time>
+		<call_phone_type>0</call_phone_type>
+		<deleted/>
+		<lat/>
+		<lon/>
+		<rep_id>{4043AD67-98A7-4DA0-A9AD-534D47E250AA}</rep_id>
+		<cond_code/>
+		<init_ventilations zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</init_ventilations>
+		<hands_on_chest zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</hands_on_chest>
+		<lon_1/>
+		<lat_1/>
+		<arch/>
+		<actions>
+			<action idx="1" action_code="65513" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:09.211Z" localbias="420" date_time="9/23/2015 6:33:09 AM" operator="10047" rep_id="{4043AD67-98A7-4DA0-A9AD-534D47E250AA}">
+				<data1>Case Entry Protocol entered</data1>
+			</action>
+			<action idx="2" action_code="65535" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:09.453Z" localbias="420" date_time="9/23/2015 6:33:09 AM" operator="10047" rep_id="{4043AD67-98A7-4DA0-A9AD-534D47E250AA}">
+				<data1>Location: %s</data1>
+			</action>
+			<action idx="3" action_code="65534" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:09.518Z" localbias="420" date_time="9/23/2015 6:33:09 AM" operator="10047" rep_id="{4043AD67-98A7-4DA0-A9AD-534D47E250AA}">
+				<data1>Callback: %s</data1>
+			</action>
+			<action idx="4" action_code="65518" var1="1" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:38.865Z" localbias="420" date_time="9/23/2015 6:33:38 AM" operator="10047" rep_id="{4043AD67-98A7-4DA0-A9AD-534D47E250AA}">
+				<data1>Abort case: n/a</data1>
+			</action>
+		</actions>
+		<dispatch_history/>
+		<info_de/>
+		<info_cbrn/>
+		<comments/>
+		<abort>
+			<aborted>
+				<idx>1</idx>
+				<reason>9. Test case</reason>
+				<rep_id>{4043AD67-98A7-4DA0-A9AD-534D47E250AA}</rep_id>
+			</aborted>
+		</abort>
+		<transfer/>
+	</case>
+	<case LogicVersion="12.2.227" Lang="NAE" ProtocolType="STD" AppVersion="5.1.1.12">
+		<internal_id>4</internal_id>
+		<incident>2662632</incident>
+		<operator>13118</operator>
+		<location>1234 SAMPLE RD</location>
+		<location2/>
+		<location3/>
+		<city/>
+		<stateprov/>
+		<zippostal/>
+		<phone>012-345-6789</phone>
+		<problem/>
+		<callername/>
+		<party>0</party>
+		<patients>1</patients>
+		<age>24</age>
+		<ageunit>2</ageunit>
+		<gender>1</gender>
+		<conscious>0</conscious>
+		<breathing>0</breathing>
+		<cc>24</cc>
+		<ron/>
+		<ron_total/>
+		<start_time zulu="2015-09-23T13:33:15.453Z" localbias="420">9/23/2015 6:33:15 AM</start_time>
+		<end_time zulu="2015-09-23T13:38:53.528Z" localbias="420">9/23/2015 6:38:53 AM</end_time>
+		<total_time zulu="1899-12-30T07:05:38.075Z" localbias="420">12/30/1899 12:05:38 AM</total_time>
+		<dispatch_time zulu="2015-09-23T13:34:12.371Z" localbias="420">9/23/2015 6:34:12 AM</dispatch_time>
+		<caseentry_time zulu="1899-12-30T07:00:21.747Z" localbias="420">12/30/1899 12:00:21 AM</caseentry_time>
+		<kq_init_time zulu="2015-09-23T13:33:37.229Z" localbias="420">9/23/2015 6:33:37 AM</kq_init_time>
+		<kq_end_time zulu="2015-09-23T13:34:12.639Z" localbias="420">9/23/2015 6:34:12 AM</kq_end_time>
+		<kq_time zulu="1899-12-30T07:00:35.410Z" localbias="420">12/30/1899 12:00:35 AM</kq_time>
+		<pdi_init_time zulu="2015-09-23T13:34:12.630Z" localbias="420">9/23/2015 6:34:12 AM</pdi_init_time>
+		<pdi_time zulu="1899-12-30T07:00:35.338Z" localbias="420">12/30/1899 12:00:35 AM</pdi_time>
+		<pai_init_time zulu="2015-09-23T13:35:29.387Z" localbias="420">9/23/2015 6:35:29 AM</pai_init_time>
+		<pai_time zulu="1899-12-30T07:00:07.024Z" localbias="420">12/30/1899 12:00:07 AM</pai_time>
+		<summary_init_time zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</summary_init_time>
+		<response>.</response>
+		<pdi/>
+		<override>0</override>
+		<status>3</status>
+		<shunted>0</shunted>
+		<shuntedto/>
+		<reconfigured>0</reconfigured>
+		<reconfigure_oc>0</reconfigure_oc>
+		<re_eval>0</re_eval>
+		<language_no/>
+		<pending>0</pending>
+		<progform>4</progform>
+		<progfield>10</progfield>
+		<testcase>0</testcase>
+		<shifted>0</shifted>
+		<shifted_cc>0</shifted_cc>
+		<shifted_lvl/>
+		<shifted_sublvl>0</shifted_sublvl>
+		<shifted_suffix/>
+		<caller_language_no/>
+		<call_start_time>2015-09-23T06:32:58</call_start_time>
+		<call_phone_type>0</call_phone_type>
+		<deleted/>
+		<lat/>
+		<lon/>
+		<rep_id>{77E596CE-21F1-4591-AC79-9C92534ECCF3}</rep_id>
+		<cond_code/>
+		<init_ventilations zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</init_ventilations>
+		<hands_on_chest zulu="1899-12-30T07:00:00.000Z" localbias="420">12/30/1899</hands_on_chest>
+		<lon_1/>
+		<lat_1/>
+		<arch/>
+		<actions>
+			<action idx="1" action_code="65513" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:15.527Z" localbias="420" date_time="9/23/2015 6:33:15 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Case Entry Protocol entered</data1>
+			</action>
+			<action idx="2" action_code="65535" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:15.791Z" localbias="420" date_time="9/23/2015 6:33:15 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Location: %s</data1>
+			</action>
+			<action idx="3" action_code="65534" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:15.860Z" localbias="420" date_time="9/23/2015 6:33:15 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Callback: %s</data1>
+			</action>
+			<action idx="4" action_code="65506" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:25.825Z" localbias="420" date_time="9/23/2015 6:33:25 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Caller party:</data1>
+			</action>
+			<action idx="5" action_code="65532" var1="1" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:26.475Z" localbias="420" date_time="9/23/2015 6:33:26 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>No. of patients: %s</data1>
+			</action>
+			<action idx="6" action_code="65531" var1="24" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:28.756Z" localbias="420" date_time="9/23/2015 6:33:28 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Age: %s</data1>
+			</action>
+			<action idx="7" action_code="65499" var1="2" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:29.351Z" localbias="420" date_time="9/23/2015 6:33:29 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Age unit entry</data1>
+			</action>
+			<action idx="8" action_code="65530" var1="1" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:32.850Z" localbias="420" date_time="9/23/2015 6:33:32 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Gender: %s</data1>
+			</action>
+			<action idx="9" action_code="65529" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:34.238Z" localbias="420" date_time="9/23/2015 6:33:34 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Conscious: %s</data1>
+			</action>
+			<action idx="10" action_code="65528" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:34.679Z" localbias="420" date_time="9/23/2015 6:33:34 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Breathing: %s</data1>
+			</action>
+			<action idx="11" action_code="65527" var1="10" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:37.059Z" localbias="420" date_time="9/23/2015 6:33:37 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Chief Complaint: %d: %s</data1>
+			</action>
+			<action idx="12" action_code="65497" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:37.212Z" localbias="420" date_time="9/23/2015 6:33:37 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Key Questions entered</data1>
+			</action>
+			<action idx="13" action_code="65513" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:39.145Z" localbias="420" date_time="9/23/2015 6:33:39 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Case Entry Protocol entered</data1>
+			</action>
+			<action idx="14" action_code="65527" var1="24" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:41.386Z" localbias="420" date_time="9/23/2015 6:33:41 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Chief Complaint: %d: %s</data1>
+			</action>
+			<action idx="15" action_code="65497" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:41.505Z" localbias="420" date_time="9/23/2015 6:33:41 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Key Questions entered</data1>
+			</action>
+			<action idx="16" action_code="65526" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:41.680Z" localbias="420" date_time="9/23/2015 6:33:41 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Additional Information displayed</data1>
+			</action>
+			<action idx="17" action_code="1799" var1="24" var2="1" var3="6045" var4="7254" var5="5205" var6="5546" var7="6186" var8="1" var9="21910" var10="1" zulu="2015-09-23T13:33:46.673Z" localbias="420" date_time="9/23/2015 6:33:46 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>How many weeks (or months) pregnant is she?</data1>
+				<data2>She is in her 3rd TRIMESTER.</data2>
+				<data3>25+ wks (7–9 mos) 3rd TRIMESTER</data3>
+			</action>
+			<action idx="18" action_code="65526" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:46.762Z" localbias="420" date_time="9/23/2015 6:33:46 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Additional Information displayed</data1>
+			</action>
+			<action idx="19" action_code="1881" var1="24" var2="1" var3="6143" var4="7733" var5="5399" var6="958" var7="6733" var8="3" var9="22059" var10="1" zulu="2015-09-23T13:33:48.388Z" localbias="420" date_time="9/23/2015 6:33:48 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Can you see any part of the baby now?</data1>
+				<data2>The caller can&apos;t see any part of the baby yet.</data2>
+				<data3>No</data3>
+			</action>
+			<action idx="20" action_code="1850" var1="24" var2="1" var3="6144" var4="7575" var5="5248" var6="963" var7="6381" var8="5" var9="22226" var10="1" zulu="2015-09-23T13:33:50.176Z" localbias="420" date_time="9/23/2015 6:33:50 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Is she having contractions (labor pains)?</data1>
+				<data2>She is having contractions.</data2>
+				<data3>Yes</data3>
+			</action>
+			<action idx="21" action_code="1810" var1="24" var2="2" var3="6047" var4="7354" var5="5206" var6="5684" var7="6189" var8="6" var9="22432" var10="1" zulu="2015-09-23T13:33:53.293Z" localbias="420" date_time="9/23/2015 6:33:53 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Is this her first delivery?</data1>
+				<data2>This is not her 1st delivery.</data2>
+				<data3>No (2nd plus)</data3>
+			</action>
+			<action idx="22" action_code="65526" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:33:53.409Z" localbias="420" date_time="9/23/2015 6:33:53 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Additional Information displayed</data1>
+			</action>
+			<action idx="23" action_code="1852" var1="24" var2="1" var3="6145" var4="7583" var5="5207" var6="5547" var7="6191" var8="7" var9="22501" var10="1" zulu="2015-09-23T13:33:55.472Z" localbias="420" date_time="9/23/2015 6:33:55 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>How many minutes apart are the contractions (labor pains)? (If unknown, answer this Key Question, start the Contractions Timer tool, and continue. If NOT IMMINENT, re-answer this KQ to reconfigure.)</data1>
+				<data2>Her pains are 2 minutes apart or less.</data2>
+				<data3>2 minutes or less</data3>
+			</action>
+			<action idx="24" action_code="1753" var1="24" var2="4" var3="6150" var4="7128" var5="5141" var6="5757" var7="6604" var8="8" var9="22617" var10="1" zulu="2015-09-23T13:34:01.545Z" localbias="420" date_time="9/23/2015 6:34:01 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Is there any SERIOUS bleeding?</data1>
+				<data2>There is some bleeding, not serious.</data2>
+				<data3>Bleeding, not serious</data3>
+			</action>
+			<action idx="25" action_code="65526" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:34:01.702Z" localbias="420" date_time="9/23/2015 6:34:01 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Additional Information displayed</data1>
+			</action>
+			<action idx="26" action_code="1826" var1="24" var2="1" var3="6146" var4="7444" var5="5302" var6="958" var7="6560" var8="9" var9="22373" var10="1" zulu="2015-09-23T13:34:06.203Z" localbias="420" date_time="9/23/2015 6:34:06 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Does she have any HIGH RISK complications?</data1>
+				<data2>She does not have any HIGH RISK complications.</data2>
+				<data3>No</data3>
+			</action>
+			<action idx="27" action_code="65496" var1="3" var2="1" var3="24" var4="D" var5="3" var6="" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:34:06.212Z" localbias="420" date_time="9/23/2015 6:34:06 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Dispatch recommended: %s-%d</data1>
+			</action>
+			<action idx="28" action_code="65522" var1="2" var2="2" var3="24" var4="D" var5="3" var6="" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:34:12.341Z" localbias="420" date_time="9/23/2015 6:34:12 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Dispatched: %s-%d</data1>
+			</action>
+			<action idx="29" action_code="65493" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:34:12.398Z" localbias="420" date_time="9/23/2015 6:34:12 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Response</data1>
+			</action>
+			<action idx="30" action_code="65525" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:34:12.630Z" localbias="420" date_time="9/23/2015 6:34:12 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Post-Dispatch Instructions displayed</data1>
+			</action>
+			<action idx="31" action_code="65497" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:34:47.991Z" localbias="420" date_time="9/23/2015 6:34:47 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Key Questions entered</data1>
+			</action>
+			<action idx="32" action_code="65497" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:35:21.960Z" localbias="420" date_time="9/23/2015 6:35:21 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Key Questions entered</data1>
+			</action>
+			<action idx="33" action_code="65524" var1="F" var2="1" var3="7549" var4="7341" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:35:29.344Z" localbias="420" date_time="9/23/2015 6:35:29 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="34" action_code="65524" var1="F" var2="1" var3="7549" var4="7341" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:05.066Z" localbias="420" date_time="9/23/2015 6:36:05 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="35" action_code="65524" var1="F" var2="2" var3="1" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:15.183Z" localbias="420" date_time="9/23/2015 6:36:15 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="36" action_code="65524" var1="F" var2="2" var3="7549" var4="6999" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:15.192Z" localbias="420" date_time="9/23/2015 6:36:15 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="37" action_code="65524" var1="F" var2="3" var3="1" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:18.653Z" localbias="420" date_time="9/23/2015 6:36:18 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="38" action_code="65524" var1="F" var2="3" var3="7549" var4="10306" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:18.666Z" localbias="420" date_time="9/23/2015 6:36:18 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="39" action_code="65524" var1="F" var2="3a" var3="1" var4="0" var5="7029" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:33.072Z" localbias="420" date_time="9/23/2015 6:36:33 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="40" action_code="65524" var1="F" var2="3a" var3="7549" var4="6845" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:33.080Z" localbias="420" date_time="9/23/2015 6:36:33 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="41" action_code="65524" var1="F" var2="4" var3="1" var4="0" var5="7030" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:37.398Z" localbias="420" date_time="9/23/2015 6:36:37 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="42" action_code="65524" var1="F" var2="4" var3="7549" var4="7000" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:37.406Z" localbias="420" date_time="9/23/2015 6:36:37 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="43" action_code="65524" var1="F" var2="5" var3="2" var4="0" var5="7426" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:46.489Z" localbias="420" date_time="9/23/2015 6:36:46 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="44" action_code="65524" var1="F" var2="5" var3="7549" var4="7001" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:46.496Z" localbias="420" date_time="9/23/2015 6:36:46 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="45" action_code="65524" var1="F" var2="6" var3="1" var4="0" var5="5393" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:57.633Z" localbias="420" date_time="9/23/2015 6:36:57 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="46" action_code="65524" var1="F" var2="6" var3="7549" var4="6847" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:36:57.645Z" localbias="420" date_time="9/23/2015 6:36:57 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="47" action_code="65524" var1="F" var2="5" var3="7549" var4="7001" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:37:38.524Z" localbias="420" date_time="9/23/2015 6:37:38 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="48" action_code="65524" var1="F" var2="6" var3="1" var4="0" var5="5393" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:37:41.926Z" localbias="420" date_time="9/23/2015 6:37:41 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="49" action_code="65524" var1="F" var2="6" var3="7549" var4="6847" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:37:41.935Z" localbias="420" date_time="9/23/2015 6:37:41 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="50" action_code="65524" var1="F" var2="6a" var3="2" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:37:46.182Z" localbias="420" date_time="9/23/2015 6:37:46 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="51" action_code="65524" var1="F" var2="6a" var3="7549" var4="6847" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:37:46.191Z" localbias="420" date_time="9/23/2015 6:37:46 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="52" action_code="65524" var1="F" var2="16" var3="2" var4="0" var5="5393" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:37:51.821Z" localbias="420" date_time="9/23/2015 6:37:51 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="53" action_code="65524" var1="F" var2="16" var3="7549" var4="5840" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:37:51.830Z" localbias="420" date_time="9/23/2015 6:37:51 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="54" action_code="65524" var1="F" var2="17" var3="2" var4="0" var5="7020" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:01.387Z" localbias="420" date_time="9/23/2015 6:38:01 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="55" action_code="65524" var1="F" var2="17" var3="7549" var4="6912" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:01.396Z" localbias="420" date_time="9/23/2015 6:38:01 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="56" action_code="65524" var1="F" var2="18" var3="1" var4="0" var5="5393" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:15.360Z" localbias="420" date_time="9/23/2015 6:38:15 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="57" action_code="65524" var1="F" var2="18" var3="7549" var4="6913" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:15.368Z" localbias="420" date_time="9/23/2015 6:38:15 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="58" action_code="65524" var1="F" var2="7" var3="1" var4="0" var5="6959" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:30.723Z" localbias="420" date_time="9/23/2015 6:38:30 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="59" action_code="65524" var1="F" var2="7" var3="7549" var4="6908" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:30.732Z" localbias="420" date_time="9/23/2015 6:38:30 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="60" action_code="65524" var1="F" var2="7a" var3="2" var4="0" var5="7428" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:34.100Z" localbias="420" date_time="9/23/2015 6:38:34 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="61" action_code="65524" var1="F" var2="7a" var3="7549" var4="6908" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:34.107Z" localbias="420" date_time="9/23/2015 6:38:34 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="62" action_code="65524" var1="F" var2="36" var3="2" var4="0" var5="7505" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:40.525Z" localbias="420" date_time="9/23/2015 6:38:40 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="63" action_code="65524" var1="F" var2="36" var3="7549" var4="6931" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:40.534Z" localbias="420" date_time="9/23/2015 6:38:40 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Pre-Arrival Instructions displayed</data1>
+			</action>
+			<action idx="64" action_code="65509" var1="0" var2="0" var3="0" var4="0" var5="0" var6="0" var7="0" var8="0" var9="0" var10="0" zulu="2015-09-23T13:38:53.529Z" localbias="420" date_time="9/23/2015 6:38:53 AM" operator="13118" rep_id="{77E596CE-21F1-4591-AC79-9C92534ECCF3}">
+				<data1>Complete case</data1>
+			</action>
+		</actions>
+		<dispatch_history>
+			<dispatch>
+				<idx>1</idx>
+				<cc>24</cc>
+				<lvl>D</lvl>
+				<sublvl>3</sublvl>
+				<suffix/>
+				<disptype>3</disptype>
+				<local_suffix/>
+				<rep_id>{77E596CE-21F1-4591-AC79-9C92534ECCF3}</rep_id>
+			</dispatch>
+			<dispatch>
+				<idx>2</idx>
+				<cc>24</cc>
+				<lvl>D</lvl>
+				<sublvl>3</sublvl>
+				<suffix/>
+				<disptype>2</disptype>
+				<local_suffix/>
+				<rep_id>{77E596CE-21F1-4591-AC79-9C92534ECCF3}</rep_id>
+			</dispatch>
+			<dispatch>
+				<idx>3</idx>
+				<cc>24</cc>
+				<lvl>D</lvl>
+				<sublvl>3</sublvl>
+				<suffix/>
+				<disptype>1</disptype>
+				<local_suffix/>
+				<rep_id>{77E596CE-21F1-4591-AC79-9C92534ECCF3}</rep_id>
+			</dispatch>
+		</dispatch_history>
+		<info_de/>
+		<info_cbrn/>
+		<comments/>
+		<abort/>
+		<transfer/>
+	</case>
+</caseinfo>
