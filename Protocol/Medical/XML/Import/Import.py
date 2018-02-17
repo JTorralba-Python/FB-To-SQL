@@ -23,17 +23,10 @@ def CASE_INFO(Node):
 	global ADCA_SQL_VALUES
 
 	T = unicode(Node.tag).encode('utf-8').strip().upper()
-	A = unicode(Node.attrib).encode('utf-8').strip().upper()
-	V = unicode(Node.text).encode('utf-8').strip()
+	V = unicode(Node.text).encode('utf-8').strip().replace("'", "''")
 
 	if T == 'INTERNAL_ID':
 		CASE_INFO_INTERNAL_ID = V
-
-	if A =='{}':
-		A = ''
-	else:
-		# print T, A
-		pass
 
 	if V == 'None':
 		V = ''
@@ -48,8 +41,11 @@ def CASE_INFO(Node):
 		else:
 			if T == 'ACTIONS' or T == 'DISPATCH_HISTORY' or T == 'COMMENTS' or T == 'ABORT':
 				ADCA(Node)
-				ADCA_SQL_Table = ''
+
 				ADCA_SQL_INSERT = ''
+				ADCA_SQL_FIELDS = ''
+				ADCA_SQL_VALUES = ''
+
 				pass
 				return
 			else:
@@ -67,8 +63,8 @@ def CASE_INFO(Node):
 		print ADCA_SQL.strip()
 		print "----------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
-		CASE_INFO_TABLE = ''
 		CASE_INFO_SQL = ''
+		CASE_INFO_INSERT = ''
 		CASE_INFO_SQL_FIELDS = ''
 		CASE_INFO_SQL_VALUES = ''
 
@@ -89,14 +85,7 @@ def ADCA(Node):
 		REP_ID = 1
 
 	T = unicode(Node.tag).encode('utf-8').strip().upper()
-	A = unicode(Node.attrib).encode('utf-8').strip().upper()
-	V = unicode(Node.text).encode('utf-8').strip()
-
-	if A =='{}':
-		A = ''
-	else:
-		# print T, A
-		pass
+	V = unicode(Node.text).encode('utf-8').strip().replace("'", "''")
 
 	if V == 'None':
 		V = ''
@@ -127,10 +116,6 @@ def ADCA(Node):
 		ADCA_SQL = ADCA_SQL.strip() + ' ' + '(' + ADCA_SQL_FIELDS.strip().rstrip(',') + ')' + ' ' + 'VALUES(' + ADCA_SQL_VALUES.strip().rstrip(',') + ')'
 		ADCA_SQL = ADCA_SQL.strip() + '\n'
 
-		ADCA_SQL_FIELDS = ''
-		ADCA_SQL_VALUES = ''
-		ACTION_IDX = ''
-
 try:
 	Input = str(sys.argv[1])
 except:
@@ -153,6 +138,5 @@ ADCA_SQL = ''
 ADCA_SQL_INSERT = ''
 ADCA_SQL_FIELDS = ''
 ADCA_SQL_VALUES = ''
-
 
 CASE_INFO(Node)
