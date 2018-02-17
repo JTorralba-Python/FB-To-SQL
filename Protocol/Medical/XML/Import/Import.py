@@ -10,18 +10,23 @@ import xml.etree.ElementTree as ET
 
 def CASE_INFO(Node):
 
-	global CASE_INFO_SQL_Table
 	global CASE_INFO_SQL
+	global CASE_INFO_SQL_INSERT
+	global CASE_INFO_SQL_FIELDS
+	global CASE_INFO_SQL_VALUES
+
 	global CASE_INFO_INTERNAL_ID
 
 	global ADCA_SQL
-	global ADCA_SQL_Table
+	global ADCA_SQL_INSERT
+	global ADCA_SQL_FIELDS
+	global ADCA_SQL_VALUES
 
-	T = unicode(Node.tag).encode('utf-8').strip()
-	A = unicode(Node.attrib).encode('utf-8').strip()
+	T = unicode(Node.tag).encode('utf-8').strip().upper()
+	A = unicode(Node.attrib).encode('utf-8').strip().upper()
 	V = unicode(Node.text).encode('utf-8').strip()
 
-	if T == 'internal_id':
+	if T == 'INTERNAL_ID':
 		CASE_INFO_INTERNAL_ID = V
 
 	if A =='{}':
@@ -30,50 +35,61 @@ def CASE_INFO(Node):
 		# print T, A
 		pass
 
-	if str(Node.tag) == 'caseinfo':
-		CASE_INFO_SQL_Table = 'CASE_INFO'
+	if V == 'None':
+		V = ''
+
+	if T == 'CASEINFO':
+		CASE_INFO_SQL_INSERT = 'INSERT INTO "CASE_INFO"' + '\n'
 		pass
 	else:
-		if str(Node.tag) == 'case':
-			CASE_INFO_SQL = CASE_INFO_SQL + CASE_INFO_SQL_Table + ' --> '
+		if T == 'CASE':
+			CASE_INFO_SQL = CASE_INFO_SQL + CASE_INFO_SQL_INSERT
 			pass
 		else:
-			if str(Node.tag) == 'actions' or str(Node.tag) == 'dispatch_history' or str(Node.tag) == 'comments' or str(Node.tag) == 'abort':
+			if T == 'ACTIONS' or T == 'DISPATCH_HISTORY' or T == 'COMMENTS' or T == 'ABORT':
 				ADCA(Node)
 				ADCA_SQL_Table = ''
+				ADCA_SQL_INSERT = ''
 				pass
 				return
 			else:
-				X = T + ':'+ V + '\t'
-				CASE_INFO_SQL = CASE_INFO_SQL + X
+				CASE_INFO_SQL_FIELDS = CASE_INFO_SQL_FIELDS + '"' + T + '", '
+				CASE_INFO_SQL_VALUES = CASE_INFO_SQL_VALUES + "'" + V + "', "
 
 	for Child in Node:
 		CASE_INFO(Child)
 
-	if str(Node.tag) == 'case':
-		print CASE_INFO_SQL.strip()
+	if T == 'CASE':
+
+		CASE_INFO_SQL = CASE_INFO_SQL.strip() + ' ' + '(' + CASE_INFO_SQL_FIELDS.strip().rstrip(',') + ')' + ' ' + 'VALUES(' + CASE_INFO_SQL_VALUES.strip().rstrip(',') + ')'
+
+		print CASE_INFO_SQL
 		print ADCA_SQL.strip()
 		print "----------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
-		CASE_INFO_Table = ''
+		CASE_INFO_TABLE = ''
 		CASE_INFO_SQL = ''
+		CASE_INFO_SQL_FIELDS = ''
+		CASE_INFO_SQL_VALUES = ''
+
 		CASE_INFO_INTERNAL_ID = 0
 
 		ADCA_SQL = ''
-		ADCA_SQL_Table = ''
 
 def ADCA(Node):
 
 	global ADCA_SQL
-	global ADCA_SQL_Table
+	global ADCA_SQL_INSERT
+	global ADCA_SQL_FIELDS
+	global ADCA_SQL_VALUES
 
 	if Node.find('rep_id') == None:
 		REP_ID = 0
 	else:
 		REP_ID = 1
 
-	T = unicode(Node.tag).encode('utf-8').strip()
-	A = unicode(Node.attrib).encode('utf-8').strip()
+	T = unicode(Node.tag).encode('utf-8').strip().upper()
+	A = unicode(Node.attrib).encode('utf-8').strip().upper()
 	V = unicode(Node.text).encode('utf-8').strip()
 
 	if A =='{}':
@@ -82,26 +98,38 @@ def ADCA(Node):
 		# print T, A
 		pass
 
-	if str(Node.tag) == 'actions' or str(Node.tag) == 'dispatch_history' or str(Node.tag) == 'comments' or str(Node.tag) == 'abort':
-		ADCA_SQL_Table = str(Node.tag).upper()
+	if V == 'None':
+		V = ''
+
+	if T == 'ACTIONS' or T == 'DISPATCH_HISTORY' or T == 'COMMENTS' or T == 'ABORT':
+		ADCA_SQL_INSERT = 'INSERT INTO "' + T + '"'
 		pass
 	else:
-		if ((str(Node.tag) == 'dispatch' or str(Node.tag) == 'comment' or str(Node.tag) == 'aborted') and REP_ID) or str(Node.tag) == 'action':
-			IDX = Node.get('idx','')
-			if IDX != None:
-				IDX = 'idx:'+IDX.strip() + '\t'
-			ADCA_SQL = ADCA_SQL + ADCA_SQL_Table + ' --> internal_id:' + CASE_INFO_INTERNAL_ID + '\t' + IDX
+		if ((T == 'DISPATCH' or T == 'COMMENT' or T == 'ABORTED') and REP_ID) or T == 'ACTION':
+			ADCA_SQL = ADCA_SQL + ADCA_SQL_INSERT
+			if T == 'ACTION':
+				ACTION_IDX = Node.get('idx','').strip()
+				ADCA_SQL_FIELDS = '"INTERNAL_ID", "IDX", '
+				ADCA_SQL_VALUES = CASE_INFO_INTERNAL_ID + ', ' + ACTION_IDX + ', '
+			else:
+				ADCA_SQL_FIELDS = '"INTERNAL_ID", '
+				ADCA_SQL_VALUES = CASE_INFO_INTERNAL_ID + ', '
 			pass
 		else:
-			X = T + ':'+ V + '\t'
-			ADCA_SQL = ADCA_SQL + X
+			ADCA_SQL_FIELDS = ADCA_SQL_FIELDS + '"' + T + '", '
+			ADCA_SQL_VALUES = ADCA_SQL_VALUES + "'" + V + "', "
 
 	for Child in Node:
 		ADCA(Child)
 
-	if ((str(Node.tag) == 'dispatch' or str(Node.tag) == 'comment' or str(Node.tag) == 'aborted') and REP_ID) or str(Node.tag) == 'action':
+	if ((T == 'DISPATCH' or T == 'COMMENT' or T == 'ABORTED') and REP_ID) or T == 'ACTION':
+
+		ADCA_SQL = ADCA_SQL.strip() + ' ' + '(' + ADCA_SQL_FIELDS.strip().rstrip(',') + ')' + ' ' + 'VALUES(' + ADCA_SQL_VALUES.strip().rstrip(',') + ')'
 		ADCA_SQL = ADCA_SQL.strip() + '\n'
-		IDX = ''
+
+		ADCA_SQL_FIELDS = ''
+		ADCA_SQL_VALUES = ''
+		ACTION_IDX = ''
 
 try:
 	Input = str(sys.argv[1])
@@ -114,11 +142,17 @@ with open(Input,'r') as XML_File:
 
 Node = Tree.getroot()
 
-CASE_INFO_SQL_Table = ''
 CASE_INFO_SQL = ''
+CASE_INFO_SQL_INSERT = ''
+CASE_INFO_SQL_FIELDS = ''
+CASE_INFO_SQL_VALUES = ''
+
 CASE_INFO_INTERNAL_ID = 0
 
 ADCA_SQL = ''
-ADCA_SQL_Table = ''
+ADCA_SQL_INSERT = ''
+ADCA_SQL_FIELDS = ''
+ADCA_SQL_VALUES = ''
+
 
 CASE_INFO(Node)
